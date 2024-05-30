@@ -82,6 +82,21 @@ form input{
 }
 
 
+.btn__login{
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #FFFF;
+    border: none;
+    background-color: #367BF5;
+}
+
 .register{
+    text-align: center;
+}
+
+.btn__register{
     color: #000;
+    font-weight: 700;
 }
