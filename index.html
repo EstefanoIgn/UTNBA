@@ -1,35 +1,198 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>TRIPIFY</title>
+    <title>Portfolio</title>
 </head>
-
 <body>
-    <div class="main__container">
-        <div class="titulo__logo">
-            <div class="img__logo"></div>
-            <h1>TRIPIFY</h1>
+    <header>
+        <div class="nav">
+            <div class="container__navigation">
+                <div class="navigation__left">
+                    <img src="logo.svg" alt="logo-ign">
+                    <h1 class="titulo__logo">ign</h1>
+                </div>
+                <div class="menu__wrap">
+                    <ul class="menu__list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navigation__right"><button class="btn__talk"><a href="#">Contactame</a></button></div>
+            </div>
         </div>
-        <h3>Explore your dream destinations</h3>
-        <p>Welcome to Tripify! Please Enter your login credentials to access your account and explore our wide range of
-            travel options.</p>
-        <div class="linea__top"></div>
-        <form action="">
-            <label for="email">Email</label>
-            <input type="text" id="email">
+    </header>
+    <section class="section__hero">
+        <div class="container__largue">
+            <div class="container__grid">
+                <div class="hero__content">
+                    <div class="container__profile">
+                        <div class="hero__text">
+                            <h1>Hola! soy Estefano</h1>
+                        </div>
+                        <div class="hero__creative">
+                            <h1>Un creativo</h1>
+                            <img src="logo.svg" alt="logo-ign" class="logo--creative">
+                            <h1>Diseñador</h1>
+                        </div>
+                        <h1>Trabajando en<br><span class="span--Argentina">Argentina</span></h1>
+                    </div>
+                    <div class="detail__wrapper">
+                        <h5>Diseño</h5>
+                        <img src="img/logo__2.svg" alt="logo-ign">
+                        <h5>Desarrollo</h5>
+                        <img src="img/logo__2.svg" alt="logo-ign">
+                        <h5>Soluciones</h5>
+                        <img src="img/logo__2.svg" alt="logo-ign">
+                    </div>
+                    <div class="hero__buttons">
+                        <a href="#">
+                            <div class="btn__black">Algun proyecto?</div>
+                        </a>
+                        <a href="#">
+                            <div class="btn__white">Hablame aqui!</div>
+                        </a>
+                    </div>
+                </div>
+                <img src="img/memoji.png" alt="#" class="hero__img">
+            </div>
+        </div>
+    </section>
+    <section class="section__banner">
+        <div class="banner-wrapper">
+            <div class="banner">
+                <div class="track-banner">
+                    <img src="img/logo__2.svg" alt="logo-ign">
+                    <div class="banner-text">Python</div>
+                    <img src="img/logo__2.svg" alt="logo-ign">
+                    <div class="banner-text">JavaScript</div>
+                    <img src="img/logo__2.svg" alt="logo-ign">
+                    <div class="banner-text">Desarrollador</div>
+                    <img src="img/logo__2.svg" alt="logo-ign">
+                    <div class="banner-text">Haskell</div>
+                    <img src="img/logo__2.svg" alt="logo-ign">
+                    <div class="banner-text">Flask</div>
+                    <img src="img/logo__2.svg" alt="logo-ign">
+                    <div class="banner-text">Analista en Sistemas</div>
+                    <img src="img/logo__2.svg" alt="logo-ign">
+                    <div class="banner-text">.net</div>
+                    <img src="img/logo__2.svg" alt="logo-ign">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__about">
+        <div class="section__container">
+            <div class="section__grid">
+                <div class="data">
+                    <div class="name-wrapper">
+                        <h5>Ignacio</h5>
+                        <img src="img/logo__2.svg" alt="logo-ign">
+                        <h5>Jira</h5>
+                    </div>
+                    <h1>Estudiante avanzado de Ingeniera en Sistemas & autodidacta en desarrollo web.
+                    </h1>
+                </div>
+                <div class="statistics">
+                    <h4>Entusiasta apasionado por las tecnologías web, buscando oportunidades para aprender, colaborar y contribuir en proyectos innovadores.</h4>
+                    <div>Apasionado por resolver problemas, creativo en el diseño y comprometido con la calidad en cada proyecto.
+                    </div>
+                    <div class="detail-wrapper">
+                        <div class="data-one">
+                            <div class="heading-detail-small">Nacido</div>
+                            <h5>Córdoba</h5>
+                        </div>
+                        <div class="data-two">
+                            <div class="heading-detail-small">Experiencia</div>
+                            <h5>3+ Years</h5>
+                        </div>
 
-            <label for="password">Password</label>
-            <input type="password" id="password">
-            
-            <button class="btn__login">log in</button>
-        </form>
-        <div class="register"><p>Dónt have an account? <span class="btn__register">Register</span></p></div>
-    </div>
+                        <div class="data-three">
+                            <div class="heading-detail-small">Cumpleaños</div>
+                            <h5>28 May 1997</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__regular">
+        <div class="numbers">
+            <div class="numbers__grid">
+                <div class="number__cell">
+                    <div class="number__largue">7+</div>
+                    <div class="heading__normal">Years of experience</div>
+                </div>
+                <div class="number__feature">
+                    <div class="number__largue">50+</div>
+                    <div class="heading__normal">Project Completed</div>
+                </div>
+                <div class="number__cell">
+                    <div class="number__largue">30+</div>
+                    <div class="heading__normal">Happy Clients</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__awards">
+        <div class="container__awards">
+            <div class="heading__wrapper">
+                <img src="logo.svg" alt="logo-ign">
+                <h2>Cursos</h2>
+                <h6>Reconocimientos & logros</h6>
+            </div>
+        </div>
+        <div class="grid__awards">
+            <div class="card__award">
+                <div class="card__content">
+                    <div class="number__block">
+                        <p class="paragraph__largue">1</p>
+                    </div>
+                    <div class="card__content__text">
+                        <h5 class="award__heading">Codo A Codo 4.0 - Full Stack Python</h5>
+                        <p class="paragraph__largue">Gobierno de la Ciudad de Buenos Aires</p>
+                    </div>
+                </div>
+                <div class="date__detail">
+                    <div class="paragraph__regular">FULL STACK</div>
+                    <div class="paragraph__regular">Julio 2023</div>
+                </div>
+            </div>
+            <div class="card__award">
+                <div class="card__content">
+                    <div class="number__block">
+                        <p class="paragraph__largue">2</p>
+                    </div>
+                    <div class="card__content__text">
+                        <h5 class="award__heading">Codo A Codo 4.0 -Full Stack JavaScript</h5>
+                        <p class="paragraph__largue">Gobierno de la Ciudad de Buenos Aires</p>
+                    </div>
+                </div>
+                <div class="date__detail">
+                    <div class="paragraph__regular">FULL STACK</div>
+                    <div class="paragraph__regular">En progreso</div>
+                </div>
+            </div>
+            <div class="card__award">
+                <div class="card__content">
+                    <div class="number__block">
+                        <p class="paragraph__largue">3</p>
+                    </div>
+                    <div class="card__content__text">
+                        <h5 class="award__heading"></h5>
+                        <p class="paragraph__largue"></p>
+                    </div>
+                </div>
+                <div class="date__detail">
+                    <div class="paragraph__regular"></div>
+                    <div class="paragraph__regular"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
-
 </html>
