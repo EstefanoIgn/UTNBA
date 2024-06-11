@@ -426,8 +426,92 @@ header{
     background-color: var(--Black);
 }
 
+.section__awards{
+    padding: 60px 5%;
+}
 
+.container__awards{
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.heading__wrapper{
+    display: flex;
+    max-width: 700px;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-left: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.heading__wrapper h2{
+    font-size: 46px;
+}
 
+.heading__wrapper h6{
+    margin-top: 8px;
+    font-size: 18px ;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.08em;
 
+}
+
+.icon__star{
+    margin-bottom: 24px;
+}
+
+.grid__awards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 24px;
+}
+
+.card__award{
+    display: flex;
+    width: 100%;
+    padding: 36px 32px;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--Black);
+}
+
+.card__content{
+    display: flex;
+    align-items: center;
+}
+
+.number__block{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Naranja);
+    color: var(--Grey);
+    font-weight: 700px;
+}
+
+.card__content__text h5{
+    font-size: 24px;
+    letter-spacing: -0.02em;
+}
+
+.date__detail{
+    display: flex;
+    align-items: center;
+    gap: 3px 8px;
+    font-weight: 600;
+}
+
+.section__portfolio{
+    padding: 60px 5%;
+}
