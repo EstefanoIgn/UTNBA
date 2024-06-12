@@ -613,4 +613,53 @@ header{
     margin: 0 auto;
 }
 
+@media (max-width:1024px){
+    .section__hero h1{
+        font-size: 36px;
+    }
+
+    .section__grid{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .data h1{
+        font-size: 26px;
+    }
+    .container__grid{
+        grid-template-columns: 1fr;
+    }
+    .memoji__container{
+        display: none;
+    }
+
+    .numbers__grid{
+        grid-template-columns: 1fr;
+    }
+
+    .card__award{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width:768px){
+    .project__content h2{
+        font-size: 25px;
+    }
+    .menu__wrap{
+        display: none;
+    }
+}
+
+@media(max-width:480px){
+    .tittle__container__text{
+        font-size: 12px;
+    }
+    .project__content h2{
+        font-size: 15px;
+    }
+}
+
+
+
 
